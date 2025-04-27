@@ -94,7 +94,7 @@ a {
     font-weight: 700;
     font-size: 100px;
     letter-spacing: 30px;
-    display: flex;   
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
