@@ -10,7 +10,8 @@ a {
 
 .header__content {
     margin: 0;
-    min-height: 293px;
+    padding-top: 75px;
+    padding-bottom: 95px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -94,11 +95,12 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+    gap: 17px;
     color: white;
     text-align: center;
     text-transform: uppercase;
     margin-top: 120px;
+    margin-bottom: 9px;
     z-index: 2;
 }
 
@@ -109,30 +111,27 @@ a {
 .aligned-text {
     align-self: flex-start;
     padding-left: 50px;
-
 }
 
 .aligned-text_center {
     align-self: center;
     padding-left: 30px;
-    padding-bottom: 5px;
 }
 
 .aligned-text_right {
     align-self: flex-end;
     padding-right: 20px;
-   
 }
 
 .cover__description {
     width: 1000px;
-    min-height: 51px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     margin-left: 50px;
+    padding-bottom: 4px;
     z-index: 2;
 }
 
@@ -161,7 +160,6 @@ a {
 
 .lots {
     width: 1052px;
-    min-height: 723px;
     margin-bottom: 120px;
     background-color: #ffffff;
     margin-left: 24px;
@@ -174,7 +172,7 @@ a {
     font-size: 40px;
     text-transform: uppercase;
     margin-left: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
 }
 
 .lots__card-list {
@@ -247,7 +245,6 @@ a {
 }
 
 .about {
-    min-height: 595px;
     margin-bottom: 180px;
     background-color: #ffffff;
     display: grid;
@@ -273,7 +270,6 @@ a {
 }
 
 .about__content {
-    min-height: 133px;
     margin-top: 133px;
 }
 
@@ -299,7 +295,7 @@ a {
 }
 
 .footer__content {
-    min-height: 180px;
+    padding-bottom: 82px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -312,7 +308,6 @@ a {
     font-style: normal;
     list-style: none;
     width: 264.57px;
-    min-height: 98px;
     flex-direction: column;
     justify-self: start;
     line-height: 24px;
@@ -323,18 +318,22 @@ a {
 .footer__menu {
     display: flex;
     width: 163.9px;
-    min-height: 64px;
     flex-direction: column;
     text-align: center;
-}
-
-.footer__menu-link {
-    text-underline-offset: 4px;
 }
 
 .footer__menu-list {
     display: block;
     list-style: none;
+}
+
+.footer__menu-list-item {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
 }
 
 .footer__social-list {
